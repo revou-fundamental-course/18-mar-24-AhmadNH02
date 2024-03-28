@@ -1,3 +1,4 @@
+/*Navbar*/
 .header-container {
   display: flex;
   align-items: center;
@@ -29,15 +30,28 @@ hr {
   border: none;
 }
 
+/*Isi Konten*/
 .section-Container {
   padding-top: 32px;
   padding-bottom: 24px;
+  padding-bottom: 8px;
 }
 
 .section-content-Container {
   display: flex;
   padding-left: 48px;
   padding-right: 48px;
+}
+
+.Slide-Image {
+  display: none;
+}
+
+.mySlide-1,
+.mySlide-2,
+.mySlide-3,
+.mySlide-4 {
+  width: 100%;
 }
 
 .imput-namaFull {
@@ -71,6 +85,7 @@ hr {
 .section-articel-content-Container {
   height: 400px;
   margin: 48px;
+  margin-bottom: 0px;
   padding-left: 48px;
   padding-right: 48px;
   background-color: rgb(227, 238, 238);
