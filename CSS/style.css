@@ -1,0 +1,113 @@
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-top: 12px;
+  padding-bottom: 8px;
+  background-color: rgb(162, 203, 112);
+  margin: 8px;
+  border-radius: 200px;
+}
+hr {
+  margin: 8px;
+}
+
+.logo-Icon {
+  width: 20%;
+  height: 40px;
+  background-image: url("../Asset/logoBuatWebTryning.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.navBar-container > button {
+  height: 30px;
+  width: 100px;
+  border-radius: 200px;
+  border: none;
+}
+
+.section-Container {
+  padding-top: 32px;
+  padding-bottom: 24px;
+}
+
+.section-content-Container {
+  display: flex;
+  padding-left: 48px;
+  padding-right: 48px;
+}
+
+.imput-namaFull {
+  height: 24px;
+  width: 300px;
+  border-radius: 20px;
+  padding-left: 10px;
+}
+
+.imput-namaPanggilan {
+  height: 24px;
+  width: 300px;
+  border-radius: 20px;
+  padding-left: 10px;
+}
+
+.imput-email {
+  height: 24px;
+  width: 300px;
+  border-radius: 20px;
+  padding-left: 10px;
+}
+
+.choose-aLocation {
+  height: 32px;
+  width: 315px;
+  border-radius: 20px;
+  padding-left: 10px;
+}
+
+.section-articel-content-Container {
+  height: 400px;
+  margin: 48px;
+  background-color: rgb(227, 238, 238);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.section-articel-content-container > div {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  flex-basis: calc(33.333% - 20px);
+  margin: 10px;
+}
+
+.itemContent-1 {
+  flex-basis: calc(66.666% - 20px);
+}
+
+.itemContent-1,
+.itemContent-3,
+.itemContent-5 {
+  order: 1;
+}
+
+.itemContent,
+.itemContent-4,
+.itemContent-6 {
+  order: 2;
+}
+
+.itemContent h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.itemContent p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
